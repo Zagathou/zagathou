@@ -1,0 +1,439 @@
+/* =========================================================
+   ZAGATHOU — freyna.org-inspired UI (no JS)
+   - Mobile-first
+   - 99% width panels on phone
+   - 9:16 portrait frame above card
+   - CSS-only tabs (kept), 5 tabs incl. LINKS
+   - Internal scrollbar + green scrollbars
+   ========================================================= */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap");
+
+/* Root tokens */
+:root{
+  --bg0: #050607;      /* almost black */
+  --bg1: #0a0f12;      /* deep dark */
+  --panel: #0b0f14;    /* panel base */
+  --panel2: #0f151b;   /* content base */
+  --text: #e9eef6;     /* off white */
+  --muted: #aab3c2;    /* muted text */
+
+  /* freyna toxic green */
+  --toxic: #10c33e;
+  --toxic2: #2dff6a;
+  --toxicGlow: rgba(16, 195, 62, 0.55);
+
+  /* neon citrus (for GAMES) */
+  --citrus: #d8ff2a;
+  --citrus2: #f3ff6a;
+
+  --border: rgba(16, 195, 62, 0.85);
+  --shadow: rgba(0, 0, 0, 0.55);
+
+  /* 99% on phone, capped on desktop */
+  --panel-max: 720px;
+
+  --radius: 18px;
+  --radius2: 14px;
+}
+
+/* Green scrollbars (Firefox + WebKit) */
+html{
+  scrollbar-width: auto;
+  scrollbar-color: var(--toxic) var(--bg0);
+}
+::-webkit-scrollbar{
+  width: 18px;
+  height: 18px;
+}
+::-webkit-scrollbar-track{
+  background: var(--bg0);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--toxic);
+  border-radius: 12px;
+  border: 3px solid var(--bg0);
+}
+::-webkit-scrollbar-thumb:hover{
+  background: var(--toxic2);
+}
+
+/* Base */
+*{ box-sizing: border-box; }
+body{
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  font-family: Tahoma, Arial, sans-serif;
+  min-height: 100vh;
+
+  /* freyna-like: calm dark base + subtle toxic glow + green->citrus atmosphere */
+  background:
+    radial-gradient(900px 520px at 20% 10%, rgba(16,195,62,0.18), transparent 62%),
+    radial-gradient(800px 420px at 70% 25%, rgba(216,255,42,0.08), transparent 65%),
+    linear-gradient(180deg, var(--bg0), var(--bg1));
+}
+
+/* Page wrapper */
+.page{
+  width: 100%;
+  min-height: 100vh;
+  padding: 12px 0 28px;
+}
+
+/* Portrait */
+.portrait-wrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 8px;
+}
+.portrait-frame{
+  width: min(99vw, var(--panel-max));
+  aspect-ratio: 9 / 16;
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+
+  border: 1px solid var(--border);
+  box-shadow:
+    0 0 0 1px rgba(16,195,62,0.16),
+    0 0 18px var(--toxicGlow),
+    0 24px 60px rgba(0,0,0,0.60);
+
+  /* placeholder background */
+  background:
+    radial-gradient(1000px 700px at 30% 10%, rgba(16,195,62,0.16), transparent 60%),
+    radial-gradient(900px 600px at 70% 40%, rgba(216,255,42,0.10), transparent 60%),
+    linear-gradient(180deg, rgba(10,16,20,0.95), rgba(6,8,10,0.95));
+}
+.portrait-img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  opacity: 1;
+}
+
+/* If empty src is kept, the image may not render; the frame background will show */
+.portrait-overlay{
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,0.10), rgba(0,0,0,0.75));
+  display: flex;
+  align-items: flex-end;
+  padding: 14px;
+}
+.portrait-text{
+  width: 100%;
+}
+.portrait-title{
+  font-family: "Comfortaa", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  font-size: 18px;
+  color: var(--text);
+  text-shadow: 0 0 14px rgba(16,195,62,0.25);
+}
+.portrait-sub{
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* Header */
+.header{
+  width: min(99vw, var(--panel-max));
+  margin: 10px auto 12px;
+  text-align: center;
+}
+.name{
+  margin: 0;
+  font-family: "Comfortaa", Tahoma, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 16px rgba(16,195,62,0.18);
+}
+.tagline{
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* Container + Card */
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width: min(99vw, var(--panel-max));
+  border-radius: var(--radius);
+  position: relative;
+
+  border: 1px solid var(--border);
+  box-shadow:
+    0 0 0 1px rgba(16,195,62,0.12),
+    0 0 18px rgba(16,195,62,0.18),
+    0 24px 60px rgba(0,0,0,0.65);
+
+  background:
+    radial-gradient(900px 500px at 20% 0%, rgba(16,195,62,0.12), transparent 62%),
+    linear-gradient(180deg, rgba(9,12,15,0.96), rgba(6,8,10,0.96));
+}
+
+/* Tabs (CSS-only) */
+.tabs{
+  text-align: left;
+  padding-top: 10px; /* tabs close to top */
+}
+
+/* Hide radios but keep them operable */
+.tabs input{
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Tab labels */
+.tabs input + label{
+  width: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 10px 8px;
+  cursor: pointer;
+
+  font-family: "Comfortaa", Tahoma, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(233,238,246,0.82);
+
+  background: rgba(18,22,26,0.82);
+  border-top: 1px solid rgba(16,195,62,0.20);
+  border-bottom: 1px solid rgba(16,195,62,0.18);
+}
+
+/* Rounded ends */
+label.tab-primary{ border-radius: 12px 0 0 0; }
+label.tab-links{ border-radius: 0 12px 0 0; }
+
+/* Hover */
+.tabs input + label:hover{
+  color: rgba(233,238,246,0.95);
+  filter: blur(0.2px);
+}
+
+/* Tabs shadow strip */
+.tabsShadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 48px;
+  width: 100%;
+  pointer-events: none;
+  box-shadow: 0 0 25px rgba(0,0,0,0.18);
+}
+
+/* Glider */
+.glider{
+  position: absolute;
+  top: 48px;
+  left: 0%;
+  height: 4px;
+  width: 20%;
+  border-radius: 0 0 2px 2px;
+  background: linear-gradient(90deg, var(--toxic) 0%, var(--toxic2) 100%);
+  box-shadow: 0 0 12px var(--toxicGlow);
+  transition: left 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Active tab label colors (kept vibe, but freyna-forward) */
+#tab-1:checked + label{ color: #7fd5ff; }      /* ABOUT */
+#tab-2:checked + label{ color: var(--citrus); } /* GAMES */
+#tab-3:checked + label{ color: #ffaa75; }      /* STYLE */
+#tab-4:checked + label{ color: #ff5ddc; }      /* SERVICE */
+#tab-5:checked + label{ color: var(--toxic2); }/* LINKS */
+
+/* Glider positions for 5 tabs */
+#tab-1:checked ~ .glider{ left: 0%; }
+#tab-2:checked ~ .glider{
+  left: 20%;
+  /* freyna green -> neon citrus */
+  background: linear-gradient(90deg, var(--toxic) 0%, var(--citrus) 100%);
+  box-shadow: 0 0 14px rgba(216,255,42,0.35);
+}
+#tab-3:checked ~ .glider{
+  left: 40%;
+  background: linear-gradient(90deg, #faffcc 0%, #ff8052 100%);
+  box-shadow: 0 0 14px rgba(255,151,77,0.35);
+}
+#tab-4:checked ~ .glider{
+  left: 60%;
+  background: linear-gradient(90deg, #b9326f 0%, #ff5ddc 100%);
+  box-shadow: 0 0 14px rgba(231,13,93,0.35);
+}
+#tab-5:checked ~ .glider{
+  left: 80%;
+  background: linear-gradient(90deg, var(--toxic) 0%, var(--toxic2) 100%);
+  box-shadow: 0 0 14px var(--toxicGlow);
+}
+
+/* Content panel */
+.content{
+  margin: 12px;
+  border-radius: var(--radius2);
+  border: 1px solid rgba(16,195,62,0.22);
+  background:
+    radial-gradient(900px 520px at 30% 10%, rgba(16,195,62,0.10), transparent 62%),
+    linear-gradient(180deg, rgba(12,16,20,0.94), rgba(9,12,15,0.94));
+
+  /* internal scroll */
+  max-height: clamp(260px, 42vh, 360px);
+  overflow: auto;
+
+  padding: 14px 14px 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  position: relative;
+}
+
+/* Tab items: only selected visible */
+.content .item{
+  display: none;
+}
+#tab-1:checked ~ .content #content-1{ display: block; }
+#tab-2:checked ~ .content #content-2{ display: block; }
+#tab-3:checked ~ .content #content-3{ display: block; }
+#tab-4:checked ~ .content #content-4{ display: block; }
+#tab-5:checked ~ .content #content-5{ display: block; }
+
+/* Titles */
+.tab-title{
+  margin: 6px 0 10px;
+  font-family: "Comfortaa", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+/* Gradient title colors (kept vibe) */
+.tab-title.tab-primary{
+  background: linear-gradient(60deg, #7fd5ff, #b692ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tab-title.tab-success{
+  background: linear-gradient(90deg, var(--toxic), var(--citrus2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tab-title.tab-default{
+  background: linear-gradient(10deg, #f7ec9c, #ff8651);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tab-title.tab-warning{
+  background: linear-gradient(70deg, #c51574, #ff5ddc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tab-title.tab-links{
+  background: linear-gradient(90deg, var(--toxic), var(--toxic2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Text */
+p{
+  margin: 0;
+  color: rgba(233,238,246,0.92);
+  line-height: 1.65;
+  font-size: 15px;
+}
+.numit{
+  font-family: "Comfortaa", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  color: var(--text);
+  text-shadow: 0 0 10px rgba(16,195,62,0.18);
+}
+
+/* Links tab pills */
+.links-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.link-pill{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 12px 12px;
+  border-radius: 999px;
+
+  text-decoration: none;
+  color: #07110a;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(90deg, var(--toxic) 0%, var(--toxic2) 100%);
+  border: 1px solid rgba(16,195,62,0.85);
+  box-shadow: 0 0 14px rgba(16,195,62,0.22);
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+.link-pill:hover{
+  filter: blur(0.2px) brightness(1.06);
+  transform: translateY(-1px);
+}
+.link-pill:active{
+  filter: brightness(1.20);
+  transform: translateY(0px);
+}
+
+/* Footer */
+.footer{
+  width: min(99vw, var(--panel-max));
+  margin: 14px auto 0;
+  text-align: center;
+}
+.footer-line{
+  height: 1px;
+  background: rgba(16,195,62,0.35);
+  box-shadow: 0 0 12px rgba(16,195,62,0.18);
+  margin: 14px 0 10px;
+}
+.footer-text{
+  margin: 0;
+  color: rgba(170,179,194,0.85);
+  font-size: 12px;
+}
+
+/* =========================================================
+   MOBILE adjustments (kept at the very end, as requested)
+   ========================================================= */
+@media (max-width: 520px){
+  .name{ font-size: 24px; }
+  .tabs input + label{
+    font-size: 11px;
+    padding: 10px 6px;
+    letter-spacing: 0.10em;
+  }
+  .content{
+    margin: 10px;
+    max-height: clamp(260px, 46vh, 380px);
+  }
+}

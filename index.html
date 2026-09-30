@@ -21,7 +21,14 @@
   <meta property="profile:first_name" content="Christian">
   <meta property="profile:last_name" content="Grigoriadis">
   <meta property="profile:username" content="Zagathou">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://zagathou.github.io/zagathou/zagachris.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="2400">
+  <meta property="og:image:alt" content="Christian Grigoriadis (Zagathou)">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://zagathou.github.io/zagathou/zagachris.jpg">
+  <meta name="twitter:image:alt" content="Christian Grigoriadis (Zagathou)">
   <meta name="twitter:title" content="Christian Grigoriadis (Zagathou) – About, Links &amp; Contact">
   <meta name="twitter:description" content="About Christian Grigoriadis alias Zagathou (Zagato): Grigori – the Watchers, MBHV, TCM, Darkstyle, Lovedoll, Lovemachine &amp; TFD webpages, social media, contact.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,6 +54,14 @@
     ],
     "email": "mailto:xelotath@outlook.de",
     "url": "https://zagathou.github.io/zagathou/",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://zagathou.github.io/zagathou/zagachris.jpg",
+      "contentUrl": "https://zagathou.github.io/zagathou/zagachris.jpg",
+      "width": 1080,
+      "height": 2400,
+      "caption": "Christian Grigoriadis (Zagathou)"
+    },
     "sameAs": [
       "https://github.com/zagathou",
       "https://x.com/chris_adhs",
@@ -82,8 +97,8 @@
     html, body{ margin:0; background:var(--bg); color:var(--text); font-family:"Nunito", sans-serif; font-size:18px; line-height:1.6; }
     .page{ width:clamp(85%,90%,1100px); max-width:var(--content-max); margin:0 auto; padding:var(--pad); }
     header{ margin:0 0 18px; }
-    .ph{ width:min(100%,360px); aspect-ratio:9/16; margin:0 auto; border:1px dashed var(--border-img); border-radius:16px; background:var(--panel); display:flex; align-items:center; justify-content:center; }
-    .ph span{ font-family:"Comfortaa", cursive, sans-serif; font-size:14px; color:rgba(255,255,255,0.28); letter-spacing:1px; }
+    .ph{ width:min(100%,360px); aspect-ratio:9/16; margin:0 auto; border:1px dashed var(--border-img); border-radius:16px; background:var(--panel); overflow:hidden; }
+    .ph img{ display:block; width:100%; height:100%; object-fit:cover; object-position:center; }
     .card{ background:var(--panel); border:1px solid var(--border); border-radius:16px; padding:16px; box-shadow:0 10px 30px rgba(0,0,0,0.22); margin:0 0 18px; }
     h1, h2{ font-family:"Comfortaa", cursive, sans-serif; font-size:22px; font-weight:700; color:var(--accent); text-transform:uppercase; line-height:1.4; margin:0 0 12px; letter-spacing:0.3px; overflow-wrap:anywhere; }
     p{ margin:0 0 12px; }
@@ -116,7 +131,7 @@
 <body>
   <div class="page">
   <header>
-    <div class="ph" role="img" aria-label="Portrait placeholder (9:16)"><span aria-hidden="true">9:16</span></div>
+    <figure class="ph" id="portrait"><img src="zagachris.jpg" alt="Christian Grigoriadis (Zagathou)" width="1080" height="2400" fetchpriority="high" decoding="async"></figure>
   </header>
   <main>
     <section class="card" id="about" aria-labelledby="name">

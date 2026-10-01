@@ -26,6 +26,7 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 - [MODULES.FREYNA.ORG](https://modules.freyna.org/)
 - [WEAPONS.FREYNA.ORG](https://weapons.freyna.org/)
 - [RAVEN.FREYNA.ORG](https://raven.freyna.org/)
+- [NELL.FREYNA.ORG](https://nell.freyna.org/)
 
 ## Für KI und Maschinen lesbar
 

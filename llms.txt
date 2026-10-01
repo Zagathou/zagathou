@@ -49,6 +49,7 @@ https://namelessentity.artstation.com (inactive)
 Messengers:
 SessionApp (Cybersecurity Messenger):
 055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173
+Session QR code: https://zagathou.github.io/zagathou/session-qr.png (encodes exactly the Session ID above)
 
 Threema (Private Messenger):
 https://threema.id/9KNDA4DA

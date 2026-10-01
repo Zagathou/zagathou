@@ -71,7 +71,9 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Session-ID",
-      "value": "055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173"
+      "value": "055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173",
+      "description": "Session messenger account ID. The QR code image encodes exactly this ID.",
+      "image": "https://zagathou.github.io/zagathou/session-qr.png"
     }
   }
 }
@@ -115,6 +117,9 @@
     .sid{ font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size:15px; background:var(--panel-strong); border:1px solid var(--border); border-radius:6px; padding:1px 6px; overflow-wrap:anywhere; word-break:break-all; }
     tr.deleted th, tr.deleted td{ color:var(--deleted); }
     .ign{ margin:12px 0 0; }
+    .qr{ margin:12px 0 0; display:inline-block; text-align:center; }
+    .qr img{ display:block; width:200px; height:200px; max-width:100%; background:#fff; padding:12px; box-sizing:content-box; border-radius:12px; }
+    .qr figcaption{ margin-top:6px; font-size:13px; font-weight:700; letter-spacing:0.4px; color:var(--muted); }
     .site-footer{ text-align:center; color:var(--muted); font-size:15px; margin:6px 0 24px; }
     .closing{ text-align:center; font-family:"Comfortaa", cursive, sans-serif; color:var(--accent); }
     ::-webkit-scrollbar{ width:20px; height:20px; }
@@ -245,7 +250,8 @@
         <table>
           <thead><tr><th scope="col">Messenger</th><th scope="col">ID / Link</th></tr></thead>
           <tbody>
-            <tr><td>SessionApp (Cybersecurity Messenger)</td><td><code class="sid">055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173</code></td></tr>
+            <tr><td>SessionApp (Cybersecurity Messenger)</td><td><code class="sid">055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173</code>
+              <figure class="qr" id="session-qr"><img src="session-qr.png" alt="SESSION QR CODE – Session ID 0550657…7173" width="200" height="200" loading="lazy" decoding="async"><figcaption>SESSION QR CODE – SCAN WITH THE SESSION APP</figcaption></figure></td></tr>
             <tr><td>Threema (Private Messenger)</td><td class="url"><a href="https://threema.id/9KNDA4DA" target="_blank" rel="noopener">HTTPS://THREEMA.ID/9KNDA4DA</a></td></tr>
           </tbody>
         </table>

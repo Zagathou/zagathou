@@ -9,7 +9,7 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 - Porträtfoto (`zagachris.jpg`) im 9:16-Rahmen als Kopfbereich (gestrichelter Rahmen)
 - Name, Gedicht und Erklärung zu „Grigori“
 - Link-Tabellen (Link | Status): GitHub, Darkstyle, Lovedoll, Lovemachine, TCM, TFD, Socialmedia
-- Messenger (Session-ID, Threema) und E-Mail
+- Messenger (Session-ID mit QR-Code `session-qr.png`, Threema) und E-Mail
 - Gelöschte Konten (grau dargestellt)
 
 ### TCM-Webseiten

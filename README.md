@@ -28,6 +28,11 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 - [RAVEN.FREYNA.ORG](https://raven.freyna.org/)
 - [NELL.FREYNA.ORG](https://nell.freyna.org/)
 
+### Lovedoll
+
+- [LOVEDOLL](https://zagathou.github.io/lovedoll/) – Lovedoll Sammlung
+- [MARY SUNDAY MORNING (LOVEDOLL)](https://zagathou.github.io/mary/) – Faktenseite zu allen 9 Mary-Versionen von Firefly Doll
+
 ### Meinungsbeiträge
 
 - [ARTIFICIAL INTELLIGENCE](https://zagathou.github.io/artificial_intelligence/) – Meinungsbeitrag zu KI (Deutsch)

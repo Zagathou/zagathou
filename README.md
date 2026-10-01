@@ -1,6 +1,6 @@
 # Christian Grigoriadis (Zagathou) – About
 
-Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Zagathou**, auch Zagato) mit Gedicht, Erklärung des Namens „Grigori“ (die Wächter) sowie allen Links: GitHub, Darkstyle-, Lovedoll-, Lovemachine-, TCM- und TFD-Webseiten, Social Media, Messenger und E-Mail. Der Seiteninhalt ist auf Englisch.
+Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Zagathou**, auch Zagato) mit Gedicht, Erklärung des Namens „Grigori“ (die Wächter) sowie allen Links: GitHub, Darkstyle-, Lovedoll-, Lovemachine-, TCM-, TFD- und Meinungs-Webseiten, Social Media, Messenger und E-Mail. Der Seiteninhalt ist auf Englisch.
 
 🌐 **Live:** https://zagathou.github.io/zagathou/
 
@@ -8,7 +8,7 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 
 - Porträtfoto (`zagachris.jpg`) im 9:16-Rahmen als Kopfbereich (gestrichelter Rahmen)
 - Name, Gedicht und Erklärung zu „Grigori“
-- Link-Tabellen (Link | Status): GitHub, Darkstyle, Lovedoll, Lovemachine, TCM, TFD, Socialmedia
+- Link-Tabellen (Link | Status): GitHub, Darkstyle, Lovedoll, Lovemachine, TCM, TFD, Opinion, Socialmedia
 - Messenger (Session-ID mit QR-Code `session-qr.png`, Threema) und E-Mail
 - Gelöschte Konten (grau dargestellt)
 
@@ -27,6 +27,10 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 - [WEAPONS.FREYNA.ORG](https://weapons.freyna.org/)
 - [RAVEN.FREYNA.ORG](https://raven.freyna.org/)
 - [NELL.FREYNA.ORG](https://nell.freyna.org/)
+
+### Meinungsbeiträge
+
+- [ARTIFICIAL INTELLIGENCE](https://zagathou.github.io/artificial_intelligence/) – Meinungsbeitrag zu KI (Deutsch)
 
 ## Für KI und Maschinen lesbar
 

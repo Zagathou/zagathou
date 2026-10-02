@@ -27,6 +27,7 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 - [WEAPONS.FREYNA.ORG](https://weapons.freyna.org/)
 - [RAVEN.FREYNA.ORG](https://raven.freyna.org/)
 - [NELL.FREYNA.ORG](https://nell.freyna.org/)
+- [SERENA.FREYNA.ORG](https://serena.freyna.org/)
 
 ### Lovedoll
 

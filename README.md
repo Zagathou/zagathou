@@ -6,7 +6,7 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 
 ## Inhalt
 
-- Porträtfoto (`zagachris.jpg`) im 9:16-Rahmen als Kopfbereich (gestrichelter Rahmen)
+- Porträt (`zagathou.jpg`, KI-generiert mit Grok Imagine) im 9:16-Rahmen als Kopfbereich (gestrichelter Rahmen) mit Hinweis „KI-generiert mit Grok Imagine“ darunter
 - Name, Gedicht und Erklärung zu „Grigori“
 - Link-Tabellen (Link | Status): GitHub, Darkstyle, Lovedoll, Lovemachine, TCM, TFD, Opinion, Socialmedia
 - Messenger (Session-ID mit QR-Code `session-qr.png`, Threema) und E-Mail
@@ -48,7 +48,7 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 
 Eine einzelne, statische `index.html` – nur HTML und CSS, **kein JavaScript** (nur strukturierte Daten als JSON-LD). Schriften: Comfortaa (Überschriften, 22px) und Nunito (Text, 18px) über Google Fonts. Farben und Rahmen wie auf [FREYNA.ORG](https://freyna.org/). Gehostet mit GitHub Pages.
 
-Die älteren Dateien `zagathou.css` und `Comfortaa.ttf` stammen von der vorherigen Version der Seite und werden von der neuen `index.html` nicht mehr verwendet. Das Porträtfoto `zagachris.jpg` wird im Kopfbereich angezeigt.
+Die älteren Dateien `zagathou.css` und `Comfortaa.ttf` stammen von der vorherigen Version der Seite und werden von der neuen `index.html` nicht mehr verwendet. Das Porträt `zagathou.jpg` wird im Kopfbereich angezeigt.
 
 ## Kontakt
 

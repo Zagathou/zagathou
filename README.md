@@ -12,6 +12,10 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 - Messenger (Session-ID mit QR-Code `session-qr.png`, Threema) und E-Mail
 - Gelöschte Konten (grau dargestellt)
 
+### Darkstyle
+
+- [DARKSTYLE](https://zagathou.github.io/darkstyle/) – Christians Dark Style: Gothic, Bondage-Fashion, Lack & Leder, Schwerter, Accessoires (Last Updated: 03.10.2026)
+
 ### TCM-Webseiten
 
 - [TCM GEWÜRZE](https://zagathou.github.io/tcm-gewuerze/)

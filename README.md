@@ -65,4 +65,4 @@ Die älteren Dateien `zagathou.css` und `Comfortaa.ttf` stammen von der vorherig
 - E-Mail: [XELOTATH@OUTLOOK.DE](mailto:xelotath@outlook.de)
 - Session-ID: `055065749fb6c6c2f07cb2ed15021b88eed3fc480e87215cca925ede91454e7173`
 - Threema: [9KNDA4DA](https://threema.id/9KNDA4DA)
-- GitHub: [GITHUB.COM/ZAGATHOU](https://github.com/Zagathou)
+- GitHub: [github.com/Zagathou](https://github.com/Zagathou)

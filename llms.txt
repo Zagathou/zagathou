@@ -19,33 +19,33 @@ GITHUB:
 https://github.com/Zagathou
 
 DARKSTYLE Webpages:
-https://zagathou.github.io/darkstyle/ (in Progress – not online yet)
+https://zagathou.github.io/darkstyle/ (Last Updated: 03.10.2026)
 
 LOVEDOLL Webpages:
-https://zagathou.github.io/lovedoll/ (Last Updated: 01.10.2026)
-https://zagathou.github.io/mary/ (Last Updated: 01.10.2026)
+https://zagathou.github.io/lovedoll/ (Last Updated: 03.10.2026)
+https://zagathou.github.io/mary/ (Last Updated: 03.10.2026)
 
 LOVEMACHINE Webpages:
 https://zagathou.github.io/lovemachine/ (in Progress – not online yet)
 
 TCM Webpages:
-https://zagathou.github.io/tcm-gewuerze/ (Last Updated: 01.10.2026)
-https://zagathou.github.io/tcm-proteine/ (Last Updated: 01.10.2026)
-https://zagathou.github.io/tcm-fette/ (Last Updated: 01.10.2026)
-https://zagathou.github.io/tcm-heilkraeuter/ (Last Updated: 01.10.2026)
-https://zagathou.github.io/tcm-kohlenhydrate/ (Last Updated: 01.10.2026)
+https://zagathou.github.io/tcm-gewuerze/ (Last Updated: 03.10.2026)
+https://zagathou.github.io/tcm-proteine/ (Last Updated: 03.10.2026)
+https://zagathou.github.io/tcm-fette/ (Last Updated: 03.10.2026)
+https://zagathou.github.io/tcm-heilkraeuter/ (Last Updated: 03.10.2026)
+https://zagathou.github.io/tcm-kohlenhydrate/ (Last Updated: 03.10.2026)
 
 TFD Webpages:
-https://freyna.org/ (Last Updated: 02.10.2026)
-https://modules.freyna.org/ (Last Updated: 02.10.2026)
-https://weapons.freyna.org/ (Last Updated: 02.10.2026)
-https://raven.freyna.org/ (Last Updated: 02.10.2026)
-https://nell.freyna.org/ (Last Updated: 02.10.2026)
-https://serena.freyna.org/ (Last Updated: 02.10.2026)
+https://freyna.org/ (Last Updated: 03.10.2026)
+https://modules.freyna.org/ (Last Updated: 03.10.2026)
+https://weapons.freyna.org/ (Last Updated: 03.10.2026)
+https://raven.freyna.org/ (Last Updated: 03.10.2026)
+https://nell.freyna.org/ (Last Updated: 03.10.2026)
+https://serena.freyna.org/ (Last Updated: 03.10.2026)
 TFD In-Game Name: Zagathou#4768
 
 OPINION Webpages:
-https://zagathou.github.io/artificial_intelligence/ (Artificial Intelligence – personal opinion piece in German; Last Updated: 01.10.2026)
+https://zagathou.github.io/artificial_intelligence/ (Artificial Intelligence – personal opinion piece in German; Last Updated: 03.10.2026)
 
 Socialmedia:
 https://x.com/chris_adhs (can vary)
@@ -76,4 +76,5 @@ YouTube (censorship / deleted)
 WhatsApp (worst cybersecurity, deleted)
 ...freedom is not an Option, it's Crucial!
 
-Last Updated: 02.10.2026
+Last Updated: 03.10.2026
+Coded by GrokBot / SpaceXAI!

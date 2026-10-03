@@ -8,7 +8,7 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 
 - Porträt (`zagathou.jpg`, KI-generiert mit Grok Imagine) im 9:16-Rahmen als Kopfbereich (gestrichelter Rahmen) mit Hinweis „KI-generiert mit Grok Imagine“ darunter
 - Name, Gedicht und Erklärung zu „Grigori“
-- Link-Tabellen (Link | Status): GitHub, Darkstyle, Lovedoll, Lovemachine, TCM, TFD, Opinion, Socialmedia
+- Link-Tabellen (Link | Status): GitHub, Darkstyle, Lovedoll, Lovemachine, TCM, TFD, Opinion, AI, Cybersecurity, Socialmedia
 - Messenger (Session-ID mit QR-Code `session-qr.png`, Threema) und E-Mail
 - Gelöschte Konten (grau dargestellt)
 
@@ -49,6 +49,10 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 ### AI
 
 - [AI IMAGE GENERATORS](https://zagathou.github.io/ai-image-generators/) – Übersicht lokaler Open-Weight-Bild-KI-Modelle (Deutsch, Last Updated: 03.10.2026)
+
+### Cybersecurity
+
+- [SESSION](https://zagathou.github.io/session/) – Session Messenger einfach erklärt: deutsche Infoseite in einfacher Sprache (Last Updated: 03.10.2026)
 
 ## Für KI und Maschinen lesbar
 

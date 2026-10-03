@@ -50,6 +50,9 @@ https://zagathou.github.io/artificial_intelligence/ (Artificial Intelligence –
 AI Webpages:
 https://zagathou.github.io/ai-image-generators/ (AI Image Generators – German overview of local open-weight image models; Last Updated: 03.10.2026)
 
+CYBERSECURITY Webpages:
+https://zagathou.github.io/session/ (Session Messenger einfach erklärt – German plain-language info page about the Session messenger app; Last Updated: 03.10.2026)
+
 Socialmedia:
 https://x.com/Zagathou (Last Updated: 03.10.2026)
 https://www.fanvue.com/zagato (inactive)

@@ -33,6 +33,10 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 - [NELL.FREYNA.ORG](https://nell.freyna.org/)
 - [SERENA.FREYNA.ORG](https://serena.freyna.org/)
 
+### Lovemachine
+
+- [LOVEMACHINE](https://zagathou.github.io/lovemachine/) – Platzhalterseite: Im Jahr 2030 (eventuell früher) wird hier berichtet. (Last Updated: 03.10.2026)
+
 ### Lovedoll
 
 - [LOVEDOLL](https://zagathou.github.io/lovedoll/) – Lovedoll Sammlung

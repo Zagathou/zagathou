@@ -47,6 +47,9 @@ TFD In-Game Name: Zagathou#4768
 OPINION Webpages:
 https://zagathou.github.io/artificial_intelligence/ (Artificial Intelligence – personal opinion piece in German; Last Updated: 03.10.2026)
 
+AI Webpages:
+https://zagathou.github.io/ai-image-generators/ (AI Image Generators – German overview of local open-weight image models; Last Updated: 03.10.2026)
+
 Socialmedia:
 https://x.com/chris_adhs (can vary)
 https://www.fanvue.com/zagato (inactive)

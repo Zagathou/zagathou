@@ -46,6 +46,10 @@ Persönliche „About“-Seite von **Christian Grigoriadis** (Künstlername **Za
 
 - [ARTIFICIAL INTELLIGENCE](https://zagathou.github.io/artificial_intelligence/) – Meinungsbeitrag zu KI (Deutsch)
 
+### AI
+
+- [AI IMAGE GENERATORS](https://zagathou.github.io/ai-image-generators/) – Übersicht lokaler Open-Weight-Bild-KI-Modelle (Deutsch, Last Updated: 03.10.2026)
+
 ## Für KI und Maschinen lesbar
 
 - Semantisches HTML (`header`, `main`, `section`, `h1`/`h2`, Tabellen), alle Inhalte als Text im DOM
